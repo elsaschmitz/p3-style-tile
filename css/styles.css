@@ -1,3 +1,30 @@
+/* Primary Header */
+h1 {
+	font-family: 'Kranky', cursive;
+	color: orange;
+}
+
+/* Body Text */
+p {
+	font-family: 'Monoton', cursive;
+	line-height: 1.5em;
+	color: pink;
+}
+
+/* Links */
+
+a:link,
+a:visited {
+	border-bottom: double #000 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	background: red;
+}
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -21,6 +48,34 @@ section {
 	width: 50px;
 }
 
+/* Color Pallette */
+
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflowerblue;
+}
+
+.color-3 {
+	background: green;
+}
+
+/* Texture Pallette */
+
+.pattern-1 {
+	background-color: #25009e;
+	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
+}
+
+.pattern-2 {
+	background: url(../img/bg.png);
+}
+
+.pattern-3 {
+	background: url("../img/bg2.png");
+}
 
 /* Show Grid */
 .showgrid {
