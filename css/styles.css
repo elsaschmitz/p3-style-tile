@@ -1,22 +1,48 @@
+/* Color Palette | The Dragon Gate - ColorLovers */
+/* Background Image | " " - ColorLovers */
+
+/* Global Styling */
+body {
+	background: url('../img/bg.png');
+	background-color: rgb(250, 243, 225);
+}
+
+.container {
+	background-color: rgba(81, 81, 81, 0.25);
+	border-radius: 40px;
+}
+
 /* Primary Header */
-h1 {
+h1{
+	font-size: 40px;
+	color: rgba(225,155,129,0.9);
+}
+
+h1, h1 + em {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: normal;
-    font-size: 40px;
-    line-height: 23px;
-    text-transform: uppercase;
+	line-height: 23px;
+	text-transform: uppercase;
     letter-spacing: 2px;
     margin: 0 0 23px 0;
-	color: orange;
 }
 
 /* Body Text */
 p {
-	font-family: 'Droid Serif', serif;
 	font-size: 15px;
+	color: rgba(250, 243, 225, 0.9);
+}
+
+p, p + em {
+	font-family: 'Droid Serif', serif;
 	line-height: 23px;
 	margin: 0 0 23px 0;
-	color: pink;
+}
+
+/* Captions */
+em {
+	font-size: 10px;
+	color: rgb(224,236,232);
 }
 
 /* IMG Style */
@@ -25,7 +51,6 @@ img {
 }
 
 /* Links */
-
 a:link,
 a:visited {
 	border-bottom: double #000 2px;
@@ -43,14 +68,26 @@ h2, h3, p {
 	margin: 0;
 }
 
+/* IDs*/
+#logo {
+	opacity: 0.6;
+	transition: opacity 1.25s ease-in-out;
+}
+
+#logo:hover {
+	opacity: 1;
+}
+
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 20px 25px;
 }
 
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
@@ -62,32 +99,38 @@ section {
 }
 
 /* Color Pallette */
-
 .color-1 {
-	background: teal;
+	background: rgb(250, 243, 225);
 }
 
 .color-2 {
-	background: cornflowerblue;
+	background: rgb(225, 155, 129);
 }
 
 .color-3 {
-	background: green;
+	background: rgb(223, 191, 180);
+}
+
+.color-4 {
+	background: rgb(81, 81, 81);
+}
+
+.color-5 {
+	background: rgb(224, 236, 232);
 }
 
 /* Texture Pallette */
-
 .pattern-1 {
 	background-color: #25009e;
 	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
 }
 
 .pattern-2 {
-	background: url(../img/bg.png);
+	background: url("../img/pattern1.png");
 }
 
 .pattern-3 {
-	background: url("../img/bg2.png");
+	background: url("../img/pattern2.png");
 }
 
 /* Show Grid */
