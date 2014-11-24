@@ -19,6 +19,11 @@ p {
 	color: pink;
 }
 
+/* IMG Style */
+img {
+	width:167px;
+}
+
 /* Links */
 
 a:link,
