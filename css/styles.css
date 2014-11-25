@@ -36,6 +36,7 @@ h3 {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: rgb(223, 191, 180);
 	font-weight: lighter;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -140,18 +141,18 @@ section {
 /* Texture Pallette */
 .pattern-1 {
 	background-color: #25009e;
-	background-image: url(http://www.transparenttextures.com/patterns/diagmonds-light.png);
+	background-image: url('../img/bg.png');
 }
 
 .pattern-2 {
-	background: url("../img/bg.png");
+	background: url('../img/pattern1.png');
 }
 
 .pattern-3 {
-	background: url("../img/pattern2.png");
+	background: url('../img/pattern2.png');
 }
 
 /* Show Grid */
 .showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+	background: url('../img/grid-bg.png') repeat-y;
 }
