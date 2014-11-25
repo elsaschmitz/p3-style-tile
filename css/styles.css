@@ -8,17 +8,20 @@ body {
 }
 
 .container {
-	background-color: rgba(81, 81, 81, 0.25);
+	background-color: rgba(81, 81, 81, 0.8);
 	border-radius: 40px;
 }
 
-/* Primary Header */
+/* Title */
 h1{
 	font-size: 40px;
 	color: rgba(225,155,129,0.9);
 }
 
-h1, h1 + em {
+h1,
+h1 + em,
+h2 +em,
+h3 +em {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: normal;
 	line-height: 23px;
@@ -27,16 +30,32 @@ h1, h1 + em {
     margin: 0 0 23px 0;
 }
 
+/* Primary, Secondary Header */
+h2,
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: rgb(223, 191, 180);
+	font-weight: lighter;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
 /* Body Text */
 p {
-	font-size: 15px;
+	font-size: 12px;
 	color: rgba(250, 243, 225, 0.9);
 }
 
-p, p + em {
+p,
+p + em {
 	font-family: 'Droid Serif', serif;
 	line-height: 23px;
-	margin: 0 0 23px 0;
 }
 
 /* Captions */
@@ -53,14 +72,13 @@ img {
 /* Links */
 a:link,
 a:visited {
-	border-bottom: double #000 2px;
-	text-transform: uppercase;
+	color: rgba(250, 243, 225, 0.9);
 	text-decoration: none;
 }
 
 a:hover,
 a:active {
-	background: red;
+	color: rgba(225,155,129,0.9);
 }
 
 /* Set Your Own Margin & Padding */
@@ -126,7 +144,7 @@ section {
 }
 
 .pattern-2 {
-	background: url("../img/pattern1.png");
+	background: url("../img/bg.png");
 }
 
 .pattern-3 {
