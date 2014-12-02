@@ -3,13 +3,27 @@
 
 /* Global Styling */
 body {
-	background: url('../img/bg.png');
-	background-color: rgb(250, 243, 225);
+	background-color: #e0ece8;
+	background-image: url(http://www.transparenttextures.com/patterns/purty-wood.png);
 }
 
 .container {
-	background-color: rgba(81, 81, 81, 0.8);
-	border-radius: 40px;
+	background-color: rgba(81, 81, 81, 0.65);
+	border-radius: 15px;
+	width: 1540px;
+}
+
+/* Navigation */
+nav {
+	background-color: rgb(0, 0, 0);
+	position: fixed;
+	left: 0;
+	border-radius: 0 15px 15px 0;
+}
+
+nav li {
+	list-style: none;
+	margin: 20px 20px;
 }
 
 /* Title */
