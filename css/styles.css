@@ -9,26 +9,9 @@ body {
 
 .container {
 	background-color: rgba(81, 81, 81, 0.65);
-	border-radius: 15px;
 	width: 1100px;
-	padding-left: 40px;
-	padding-right: 40px;
-}
-
-/* Navigation */
-nav {
-	background-color: rgb(0, 0, 0);
-	position: fixed;
-	top: 0;
-	width: 200px;
-	height: 100%;
-}
-
-nav li {
-	letter-spacing: 2px;
-	font-family: 'Roboto Condensed', sans-serif;
-	list-style: none;
-	margin: 150px 20px;
+	margin-top: 49px;
+	padding-left: 20px;
 }
 
 /* Title */
@@ -71,6 +54,43 @@ h3 {
 	font-size: 20px;
 }
 
+/* Navigation*/
+nav {
+	background-color: rgb(81, 81, 81);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-bottom: 15px;
+}
+
+li {
+	display: inline;
+	float: right;
+	margin: 0 10px;
+}
+
+nav select {
+	display: none;
+	float: right;
+}
+
+@media screen and (max-width:340px) {
+	nav {
+		background-color: transparent;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	nav select {
+		display: inline-block;
+	}
+}
+
 /* Body Text */
 p {
 	font-size: 12px;
@@ -110,16 +130,6 @@ a:active {
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 20px;
-}
-
-/* IDs*/
-#logo {
-	opacity: 0.6;
-	transition: opacity 1.25s ease-in-out;
-}
-
-#logo:hover {
-	opacity: 1;
 }
 
 /* Layout for Style Tile*/
